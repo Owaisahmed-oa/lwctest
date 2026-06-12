@@ -1,3 +1,7 @@
 .list{
-    
+    background: rgb(111, 92, 92);
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
 }
