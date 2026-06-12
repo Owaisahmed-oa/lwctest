@@ -1,0 +1,11 @@
+<template>
+    <h1>All Employees</h1>
+
+    <!-- <button onclick={callAllEmployees}>Call All Employees</button> -->
+
+    <template for:each={emps} for:item="employee">
+        <div key={employee.Id} class="nameCard">
+            {employee.Name}
+        </div>
+    </template>
+</template>

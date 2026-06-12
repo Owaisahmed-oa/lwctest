@@ -1,0 +1,16 @@
+<template>
+    <input onchange={enterAge} placeholder="Enter age" type="number">
+    <button onclick={checkAge}>Check Age</button>
+    <div class="yes" if:true={adult}>
+        You are adult
+    </div>
+    <div class="no" if:false={adult}> 
+        You are not an adult
+    </div>
+    
+    <br>
+    <br>
+    <input onchange={enterNumber1} placeholder="Enter number1" type="number">
+    <input onchange={enterNumber2}   placeholder="Enter number2" type="number">
+    <button onclick={addNumbers}>Add Number 1 and 2</button>
+</template>

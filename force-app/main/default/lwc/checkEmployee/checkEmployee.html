@@ -1,0 +1,10 @@
+<template>
+        <h1>Check if Employee is Available or not</h1>
+        <input  onchange={writeName} placeholder="Enter Employee Name" type="text">
+        <br>
+        <button onclick={checkEmployeeExists}>Check Employee</button>
+        <br>
+        <div if:true={exist}>Employee Exist!</div>
+        <div if:false={exist}>Employee does not Exist  dd</div>
+
+</template>

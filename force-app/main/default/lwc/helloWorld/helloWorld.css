@@ -1,0 +1,13 @@
+.card{
+    background: grey;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+}
+.title{
+    font-size: larger;
+}
+.text{
+    color: red;
+}

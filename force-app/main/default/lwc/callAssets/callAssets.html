@@ -1,0 +1,8 @@
+<template>
+    <h1>All Assets</h1>
+    <template for:each={assets} for:item="asset">
+        <div key={asset.Id} class="nameCard" >
+            {asset.Name}-{asset.AssetType__c}-{asset.AssetStatus__c}
+        </div>
+    </template>
+</template>
